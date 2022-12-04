@@ -1,0 +1,15 @@
+{
+   "name": "entity",
+   "main": "plugin/entity.js",
+   "license": "MIT",
+   "ignore": [
+      "package.json"
+   ],
+   "keywords": [
+      "entity",
+      "entity-parser",
+      "javascript",
+      "browser",
+      "library"
+   ]
+}

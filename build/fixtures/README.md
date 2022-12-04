@@ -3,7 +3,7 @@
 ![Author](https://codingmodassir.000webhostapp.com/badges/author/Author-coding-modassir.svg)
 ![Language](http://codingmodassir.000webhostapp.com/badges/lang/language-Javascript.svg)
 ![License](http://codingmodassir.000webhostapp.com/badges/license/license-MIT.svg)
-![Version](./module/Clazzer-v1.0.svg)
+![Version](/module/Clazzer-v1.0.svg)
 ![Release](http://codingmodassir.000webhostapp.com/badges/releases/releases-1.svg)
 
 **Clazzer is pure Javascript HTMLEntity parser encoder/decoder plugin easily encode/decode HTML chars v1.0.0**

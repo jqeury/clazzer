@@ -1,0 +1,16 @@
+{
+   "name": "Clazzer",
+   "version": "1.0.0",
+   "release": "04-12-2022",
+   "root": "external/clazzer/clazzer.js",
+   "repository": {
+      "type": "git",
+      "url": "git+https://github.com/jqeurys/sizzles.git"
+   },
+   "kewords": [
+      "clazzer"
+   ],
+   "author": "Modassir: JS - Library developer",
+   "license": "MIT",
+   "homepage": "https://github.com/jqeurys/sizzles#readme"
+}

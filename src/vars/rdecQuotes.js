@@ -1,0 +1,1 @@
+export default /&(?:quot|#39);/g;

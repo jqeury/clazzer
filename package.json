@@ -1,0 +1,50 @@
+{
+  "_from": "clazzer",
+  "_id": "clazzer@1.0.0",
+  "_inBundle": false,
+  "_integrity": "sha512-xxAsG/+WFPCJJMgJIzM9FsvA+IQ7v0NJdWc/VnPyq4jW5WitnX0Z/UAh4V0EoFGl7DNmgxX34e1N8LOlE5anAQ==",
+  "_location": "/clazzer",
+  "_phantomChildren": {},
+  "_requested": {
+    "type": "tag",
+    "registry": true,
+    "raw": "clazzer",
+    "name": "clazzer",
+    "escapedName": "clazzer",
+    "rawSpec": "",
+    "saveSpec": null,
+    "fetchSpec": "latest"
+  },
+  "_requiredBy": [
+    "#USER",
+    "/"
+  ],
+  "_resolved": "https://registry.npmjs.org/clazzer/-/clazzer-1.0.0.tgz",
+  "_shasum": "685c4dbfe24da2cfcf133fc5a2d2e3e89a80ee31",
+  "_spec": "clazzer",
+  "_where": "C:\\Users\\M-info\\Desktop\\entity",
+  "author": {
+    "name": "Modassir: JS - Library developer"
+  },
+  "bugs": {
+    "url": "https://github.com/jqeurys/clazzer/issues"
+  },
+  "bundleDependencies": false,
+  "deprecated": false,
+  "description": "Clazzer is pure Javascript HTMLEntity parser encoder/decoder plugin easily encode/decode HTML chars v1.0.0",
+  "homepage": "https://github.com/jqeurys/clazzer#readme",
+  "keywords": [
+    "clazzer"
+  ],
+  "license": "MIT",
+  "main": "plugin/clazzer.js",
+  "name": "clazzer",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jqeurys/clazzer.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
