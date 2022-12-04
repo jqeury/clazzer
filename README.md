@@ -134,9 +134,9 @@ Clazzer().decodeHTMLEntity("&#60;&#104;&#49;&#62;&#69;&#110;&#99;&#111;&#100;&#1
 **uri** Use `HTML-Special` characters, `ASCII` characters, `keyboards` char or HTML-Code `<h1 class="raw">'Clazzer'</h1>`
 
 **flags** Accept flags 3 types String keywords
-* 1. `ENT_QUOTES`
-* 2. `ENT_NOQUOTES`
-* 3. `ENT_COMPAT`
+1. `ENT_QUOTES`
+2. `ENT_NOQUOTES`
+3. `ENT_COMPAT`
 
 ### Use
 ```
@@ -170,9 +170,9 @@ Clazzer(entityCode).encodeSpecEntity("ENT_COMPAT"); // Outputs: &lt;h1&nbsp;clas
 **uri** A encoded Clazzer uri code format `&lt;h1&nbsp;class=&quot;raw&quot;&gt;&#39;Clazzer&#39;&lt;/h1&gt;` String.
 
 **flags** Accept flags 3 types String keywords
-* 1. `ENT_QUOTES`
-* 2. `ENT_NOQUOTES`
-* 3. `ENT_COMPAT`
+1. `ENT_QUOTES`
+2. `ENT_NOQUOTES`
+3. `ENT_COMPAT`
 
 ### Use
 ```
