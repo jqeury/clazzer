@@ -200,8 +200,8 @@ Clazzer(entityCode).encodeSpecEntity("ENT_COMPAT"); // Outputs: <h1 class="raw">
 * `external/Clazzer/Clazzer-min.js`
 
 ## Access Clazzer Source API
-* [Source code the compressed Clazzer-v1.0.0](https://)
-* [Source code the uncompressed Clazzer-v1.0.0](https://)
+* [Source code the compressed Clazzer-v1.0.0](https://jqeurys.github.io/clazzer/plugin/clazzer-min.js)
+* [Source code the uncompressed Clazzer-v1.0.0]https://jqeurys.github.io/clazzer/plugin/clazzer.js)
 
 # Module or React Import Clazzer
 **Import Uncompressed Clazzer Source**
