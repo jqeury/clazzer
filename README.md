@@ -16,13 +16,13 @@
 
 ## How to Build Clazzer
 Clone a copy of the main clazzer git repo by running:
-```
+```sh
 git clone git://github.com/jquery/clazzer.git
 ```
 In the clazzer/plugin folder you will find build version of clazzer along with the minified copy and associated map file.
 
 ## Download Clazzer using npm
-```
+```sh
 npm install clazzer
 ```
 
@@ -30,7 +30,7 @@ npm install clazzer
 **Note:** We suggesst You implement Clazzer always in under head section. or body of last section. use only
 
 ### Script tag
-```
+```html
 <script src="https://jqeurys.github.io/clazzer/plugin/clazzer-min.js" defer></script>
 ```
 
@@ -42,7 +42,7 @@ npm install clazzer
 **Note:** encodeEntity method will be encode HTML-Special characters in named `&amp;` Clazzer format. But encodeEntity method will be not encode single ` ' ` cots and double ` " ` cots. encodeEntity encode only HTML-Special characters.
 
 ### Use
-```
+```js
 Clazzer("<h1>The first of Header</h1>").encodeEntity();
 
 // OR
@@ -63,7 +63,7 @@ Clazzer.encodeEntity("<h1>The first of Header</h1>");
 **Note:** decodeEntity method will be decode HTML-Special characters in named `&amp;` to ` & ` Clazzer format. But decodeEntity method will be not decode single ` ' ` cots and double ` " ` cots. decodeEntity decode only HTML-Special characters.
 
 ### Use
-```
+```js
 Clazzer.decodeEntity("&lt;h1&gt;The first of Header&lt;/h1&gt;");
 
 // OR
@@ -84,7 +84,7 @@ Clazzer("&lt;h1&gt;The first of Header&lt;/h1&gt;").decodeEntity();
 **Note:** encodeHTMLEntity method will be encode HTML-Special characters or All char in code ` ' ` to ` &#39; ` Clazzer format. encodeHTMLEntity encode by All ASCII char and All keyboard char Clazzer code format.
 
 ### Use
-```
+```js
 // Before initialize new Clazzer(String uri); and use after
 var ent = new Clazzer("<h1>Encode Clazzer<h1>");
 ent.encodeHTMLEntity();
@@ -110,7 +110,7 @@ Clazzer().encodeHTMLEntity("<h1>Encode Clazzer<h1>");
 **Note:** decodeHTMLEntity method will be decode HTML-Special characters or All char in code ` &#39; ` to ` ' ` Clazzer format. decodeHTMLEntity decode by All ASCII char and All keyboard char Clazzer code format.
 
 ### Use
-```
+```js
 Clazzer.decodeHTMLEntity("&#60;&#104;&#49;&#62;&#69;&#110;&#99;&#111;&#100;&#101;&#160;&#101;&#110;&#116;&#105;&#116;&#121;&#60;&#104;&#49;&#62;");
 
 // OR
@@ -139,7 +139,7 @@ Clazzer().decodeHTMLEntity("&#60;&#104;&#49;&#62;&#69;&#110;&#99;&#111;&#100;&#1
 3. `ENT_COMPAT`
 
 ### Use
-```
+```js
 var entityCode = "<h1 class="raw">'Clazzer'</h1>";
 
 Clazzer.encodeSpecEntity(entityCode, "ENT_QUOTES"); // Outputs: &lt;h1&nbsp;class=&quot;raw&quot;&gt;&#39;Clazzer&#39;&lt;/h1&gt;
@@ -175,7 +175,7 @@ Clazzer(entityCode).encodeSpecEntity("ENT_COMPAT"); // Outputs: &lt;h1&nbsp;clas
 3. `ENT_COMPAT`
 
 ### Use
-```
+```js
 var entityCode = "&lt;h1&nbsp;class=&quot;raw&quot;&gt;&#39;Clazzer&#39;&lt;/h1&gt;";
 
 Clazzer.encodeSpecEntity(entityCode, "ENT_QUOTES"); // Outputs: <h1 class="raw">'Clazzer'</h1>
@@ -194,7 +194,7 @@ Clazzer(entityCode).encodeSpecEntity("ENT_NOQUOTES"); // Outputs: <h1 class=&quo
 Clazzer(entityCode).encodeSpecEntity("ENT_COMPAT"); // Outputs: <h1 class="raw">&#39;Clazzer&#39;</h1>
 ```
 
-## Main Clazzer Implement ROOT Folder Location `external/Clazzer/`
+#### Main Clazzer Implement ROOT Folder Location `external/Clazzer/`
 * **Root Folder** `external/Clazzer/`
 * `external/Clazzer/Clazzer.js`
 * `external/Clazzer/Clazzer-min.js`
@@ -203,15 +203,15 @@ Clazzer(entityCode).encodeSpecEntity("ENT_COMPAT"); // Outputs: <h1 class="raw">
 * [Source code the compressed Clazzer-v1.0.0](https://jqeurys.github.io/clazzer/plugin/clazzer-min.js)
 * [Source code the uncompressed Clazzer-v1.0.0](https://jqeurys.github.io/clazzer/plugin/clazzer.js)
 
-# Module or React Import Clazzer
+## Module or React Import Clazzer
 **Import Uncompressed Clazzer Source**
-```
+```js
 // uncompressed Clazzer 1.0.0
 import Sizzles from "https://jqeurys.github.io/Clazzer/exports/Clazzer.js";
 ```
 
 **Import Compressed Clazzer Source**
-```
+```js
 // compresssed Clazzer 1.0.0
 import Sizzles from "https://jqeurys.github.io/Clazzer/exports/Clazzer-min.js";
 ```
